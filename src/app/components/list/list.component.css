@@ -1,0 +1,19 @@
+.error {
+    color: #D32F2F
+}
+
+.warning {
+    color: #CDDC39
+}
+
+.announcement {
+    color: #0288D1
+}
+
+.dns {
+    color: #43A047
+}
+
+md-list-item {
+    border-bottom: 1px solid lightgrey;
+}

@@ -1,0 +1,5 @@
+<md-grid-list cols="{{cardsObjSize}}" rowHeight="200px">
+    <md-grid-tile [colspan]="1" [rowspan]="1" *ngFor="let card of cardStats | keys">
+        <card type="{{card.key}}" num="{{card.value+1}}"></card>
+    </md-grid-tile>
+</md-grid-list>

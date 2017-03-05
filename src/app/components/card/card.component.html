@@ -1,0 +1,9 @@
+<md-card>
+    <md-card-header>
+        <md-card-title class="capitalize" *ngIf="type !== 'dns'">{{type}}s</md-card-title>
+        <md-card-title *ngIf="type === 'dns'">Logs</md-card-title>
+    </md-card-header>
+    <md-card-content class="content">
+        <span class="num">{{num}}</span>
+    </md-card-content>
+</md-card>

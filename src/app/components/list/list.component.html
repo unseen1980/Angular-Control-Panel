@@ -1,0 +1,9 @@
+<md-list>
+    <h3 md-subheader>Client feed</h3>
+    <md-list-item *ngFor="let message of messages">
+        <md-icon md-list-avatar [ngClass]="message.type">{{message.type}}</md-icon>
+        <h4 md-line>{{message.name}}</h4>
+        <p md-line> {{message.updated | date}} </p>
+        <p md-line> {{message.browser}} - {{message.country}} - {{message.ip}}</p>
+    </md-list-item>
+</md-list>
